@@ -33,7 +33,7 @@ namespace CoderGirl_MVCMovies.Data
 
         public int SaveRating(string movieName, int rating)
         {
-
+             
             if (String.IsNullOrEmpty(movieName) || rating == 0)
             {
                 return 0;
